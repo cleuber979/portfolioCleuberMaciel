@@ -1,0 +1,625 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ClassHeader{
+  
+  margin-top: 0;
+  background-color:#0000CD;
+  display: block;
+  height: 72px;
+  
+}
+
+.iconMenu{
+width: 50px;
+height: 50px;
+position: absolute;
+margin-top: 0%;
+text-align: center;
+
+}
+.textMain{
+text-align: center;
+margin-top: 0px;
+padding: 15px;
+
+}
+@media only screen and (max-width: 600px) {
+  .sectionMain{
+    margin: 0px;
+    
+  }
+  .Imgmain{
+    width: 100%;
+    height: 250px;
+       
+  }
+  .texOla{
+    color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    
+  }
+  .DeveloperWev{
+    color: #f1f1f1;
+    font-size: 25px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    margin-top: 35px;
+    
+  }
+  .divMain {
+  
+    flex-direction: column ;
+  }
+  .img1{
+    width: 100%;
+    height: 150px;
+  }
+  .img2{
+    width: 100%;
+    height: 150px;
+  }
+  .img3{
+    width: 100%;
+    height: 150px;
+  }
+  .img4{
+  width: 100%;
+  height: 150px;
+  }
+  .divMain2{
+    width: 100%;
+    height: 350px;
+    background: #0000CD;
+  }
+  .footerMain{
+    width: 100%;
+    height: 200px;
+    background: #0000FF;
+   
+  }
+  
+  .linkedinMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10%;
+  }
+  .gitHurbMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 60%;
+  }
+  .email{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 0%;
+  }
+  .emailMain{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 20%;
+  color: white;
+  }
+  .telefoneIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: -13%;
+    position: absolute;
+  }
+  .telefoneMain{
+    position: absolute;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20%;
+  }
+  .enderMain{
+    position: absolute;
+     color: white;
+    margin-top: 70px;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sectionMain{
+    margin: 0px;
+    
+  }
+  .Imgmain{
+    width: 100%;
+    height: 350px;
+       
+  }
+  .texOla{
+    color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    
+  }
+  .DeveloperWev{
+    color: #f1f1f1;
+    font-size: 35px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    margin-top: 35px;
+    
+  }
+  .divMain {
+  
+    display: flex;
+  }
+  .img1{
+    width: 25%;
+    height: 200px;
+  }
+  .img2{
+    width: 25%;
+    height: 200px;
+  }
+  .img3{
+    width: 25%;
+    height: 200px;
+  }
+  .img4{
+  width: 25%;
+  height: 200px;
+  }
+  .divMain2{
+    width: 100%;
+    height: 350px;
+    background: #0000CD;
+  }
+  .footerMain{
+    width: 100%;
+    height: 100px;
+    background: #0000FF;
+  }
+  
+  .linkedinMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 25%;
+  }
+  .gitHurbMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50%;
+  }
+  .email{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .emailMain{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 110px;
+  color: white;
+  }
+  .telefoneIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 300px;
+  }
+  .telefoneMain{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 470px;
+    color: white;
+  }
+  .enderMain{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 670px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sectionMain{
+    margin: 0px;
+    
+  }
+  .Imgmain{
+    width: 100%;
+    height: 400px;
+       
+  }
+  .texOla{
+    color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    
+  }
+  .DeveloperWev{
+    color: #f1f1f1;
+    font-size: 50px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    margin-top: 35px;
+    
+  }
+   .divMain:hover> :not(:hover) {
+  
+  display: flex;
+  opacity: .10;
+  transform: scale(0.5);
+}
+ 
+.img1{
+  width: 25%;
+  height: 200px;
+  border: 1px solid white;
+  transform: .35s;
+  cursor: pointer;
+}
+  .img2{
+    width: 25%;
+    height: 200px;
+  }
+  .img3{
+    width: 25%;
+    height: 200px;
+  }
+  .img4{
+  width: 25%;
+  height: 200px;
+  }
+  .divMain2{
+    width: 100%;
+    height: 350px;
+    background: #0000CD;
+  }
+  .footerMain{
+    width: 100%;
+    height: 200px;
+    background: #0000FF;
+  }
+  
+  .linkedinMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 25%;
+  }
+  .gitHurbMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50%;
+  }
+  .email{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .emailMain{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 110px;
+  color: white;
+  }
+  .telefoneIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 300px;
+  }
+  .telefoneMain{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 470px;
+    color: white;
+  }
+  .enderMain{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 600px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sectionMain{
+    margin: 0px;
+    
+  }
+  .Imgmain{
+    width: 100%;
+    height: 600px;
+       
+  }
+  .texOla{
+    color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    
+  }
+  .DeveloperWev{
+    color: #f1f1f1;
+    font-size: 60px;
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    margin-top: 35px;
+    
+  }
+  .divMain:hover> :not(:hover) {
+  
+  display: flex;
+  opacity: .10;
+  transform: scale(0.5);
+}
+.img1{
+  width: 25%;
+  height: 250px;
+  border: 1px solid white;
+  transform: .35s;
+  cursor: pointer;
+}
+  .img2{
+    width: 25%;
+    height: 250px;
+  }
+  .img3{
+    width: 25%;
+    height: 250px;
+  }
+  .img4{
+  width: 25%;
+  height: 250px;
+  }
+  .divMain2{
+    width: 100%;
+    height: 350px;
+    background: #0000CD;
+  }
+  .footerMain{
+    width: 100%;
+    height: 100px;
+    background: #0000FF;
+  }
+  
+  .linkedinMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+  }
+  .gitHurbMain{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+  }
+  .email{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .emailMain{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 110px;
+  color: white;
+  }
+  .telefoneIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 300px;
+  }
+  .telefoneMain{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 470px;
+    color: white;
+  }
+  .enderMain{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 670px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+.sectionMain{
+  margin: -5px;
+  
+}
+.Imgmain{
+  width: 100%;
+  height: 610px;
+  
+}
+.texOla{
+  color: #f1f1f1;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  position:absolute;
+  
+}
+.DeveloperWev{
+  color: #f1f1f1;
+  font-size: 45px;
+  font-family: 'Heebo', sans-serif;
+  position:absolute;
+  margin-top: 35px;
+  
+}
+.divMain:hover> :not(:hover) {
+  
+  display: flex;
+  opacity: .10;
+  transform: scale(0.5);
+}
+.img1{
+  width: 25%;
+  height: 250px;
+  border: 1px solid white;
+  transform: .35s;
+  cursor: pointer;
+}
+.img2{
+  width: 25%;
+  height: 250px;
+  border: 1px solid white;
+}
+.img3{
+  width: 25%;
+  height: 250px;
+  border: 1px solid white;
+}
+.img4{
+width: 25%;
+height: 250px;
+border: 1px solid white;
+}
+.divMain2{
+  width: 100%;
+  height: 350px;
+  background: #0000CD;
+}
+.footerMain{
+  width: 100%;
+  height: 100px;
+  background: #0000FF;
+}
+
+.linkedinMain{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 450px;
+}
+.gitHurbMain{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 800px;
+}
+.email{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.emailMain{
+position: absolute;
+margin-top: -30px;
+margin-left: 110px;
+color: white;
+}
+.telefoneIcon{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 25px;
+  margin-left: 300px;
+}
+.telefoneMain{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 470px;
+  color: white;
+}
+.enderMain{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 670px;
+  color: white;
+}
+}
+
+
+
+
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0000CD;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #421010;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    
+  }
+  
+  
